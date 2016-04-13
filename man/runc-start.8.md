@@ -24,4 +24,4 @@ command(s) that get executed on start, edit the args parameter of the spec. See
    --detach, -d         detach from the container's process
    --pid-file           specify the file to write the process id to
    --no-subreaper       disable the use of the subreaper used to reap reparented processes
-   --no-pivot           do not use pivot root to jail process inside rootfs.  This should be used whenever the rootfs is on top of a ramdisk
+   --no-pivot           do not use pivot root to jail process inside rootfs. This should be used whenever the rootfs is on top of a ramdisk
